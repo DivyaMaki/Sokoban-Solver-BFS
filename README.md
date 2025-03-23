@@ -8,7 +8,6 @@ This project implements a Sokoban game using Python's Tkinter library. The game 
 3. [Setup Instructions](#setup-instructions)
 4. [Game Controls](#game-controls)
 5. [How It Works](#how-it-works)
-6. [Credits](#credits)
 
 ---
 
