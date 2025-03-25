@@ -19,7 +19,7 @@ The game is based on the classic Sokoban puzzle where the objective is to push b
 - Three levels with different grid layouts.
 - Grid is displayed with walls (O), player (P), boxes (B), goals (G), and boxes on goals (GB).
 - Ability to reset the game to its initial state.
-- Automatic solver using a breadth-first search (BFS) algorithm.
+- Automatic solver using a depth-first search (DFS) algorithm.
 - Visual feedback with images for walls, player, boxes, and goals.
 - Win condition that displays a message box when the level is completed.
 
@@ -29,7 +29,7 @@ The game is based on the classic Sokoban puzzle where the objective is to push b
 
 - *Levels*: The game includes three different levels, each with a unique layout and increasing difficulty.
 - *Manual Play*: Players can move the player character (P) and push boxes (B) manually within the game grid.
-- *Automatic Solver*: A BFS-based solver that automatically determines a solution path and moves the player along the path.
+- *Automatic Solver*: A DFS-based solver that automatically determines a solution path and moves the player along the path.
 - *Reset Feature*: Players can reset the game back to its initial state.
 - *Win Condition*: The game checks if all boxes are placed on the correct goal positions, and displays a message when the player wins.
 
@@ -97,7 +97,7 @@ The game is based on the classic Sokoban puzzle where the objective is to push b
    The player can move in any direction unless blocked by a wall (O) or another box (B). If the player moves onto a box, the box will be pushed if there is an empty space or goal (G) to push it into.
 
 ### 4. *Solver*:
-   The BFS-based solver searches for a valid sequence of moves to solve the puzzle. It checks for all possible movements and uses a queue to explore them efficiently. If a solution is found, the sequence of moves is displayed in the console and the solver automatically solves the puzzle by following the calculated path.
+   The DFS-based solver searches for a valid sequence of moves to solve the puzzle. It checks for all possible movements and uses a queue to explore them efficiently. If a solution is found, the sequence of moves is displayed in the console and the solver automatically solves the puzzle by following the calculated path.
 
 ### 5. *Win Condition*:
    Once all boxes are placed on goal positions (GB), the player wins the level, and a message box is displayed. The game then closes, and the level selection window appears for the player to choose the next level.
